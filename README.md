@@ -1,2 +1,80 @@
-# Test-Website
-Test for STAT-613
+---
+title: "Basic R Markdown Website"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+---
+
+## Welcome!
+
+Hi I'm Kelly from RStudio - This is an example portfolio website I created to inspire more people to build data products and share them on the internet.
+
+- I created this website using R Markdown hosted on my GitHub account.
+- The `Shiny Showcase` section displays embedded shiny applications hosted on [shinyapps.io](http://www.shinyapps.io/)
+
+### The Importance of Public Work
+
+Not all work can be made public, but sharing work publicly is powerful and extremely useful to you and others!
+
+But don't take my word for it, watch this talk on [The Unreasonable Effectiveness of Public Work](https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work) by David Robinson.
+
+------
+
+## Shiny Showcase
+
+### Old Faithful Gyser
+
+This shiny application is the standard starter-template app for new Shiny projects in the RStudio IDE.
+
+<!--html_preserve-->
+<html>
+
+<iframe id="example1" src="https://glacieus.shinyapps.io/shiny/"
+style="border: non; width: 100%; height: 500px"
+frameborder="0">
+</iframe>
+
+</html>
+<!--/html_preserve-->
+
+### Presentation
+
+Data Science Portfolios with shinyapps.io - [View it on SpeakerDeck](https://speakerdeck.com/kellobri/data-science-portfolios-with-shinyapps-dot-io) 
+
+<!--html_preserve-->
+<html>
+
+<blockquote class="embedly-card"><h4><a href="https://speakerdeck.com/kellobri/data-science-portfolios-with-shinyapps-dot-io">Data Science Portfolios with shinyapps.io</a></h4><p>Learning shiny is great, but only if you also learn how to get it off your own computer.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+</html>
+<!--/html_preserve-->
+
+-----
+
+## Build Resources
+
+### Embedding Shiny Applications
+
+Every application you deploy will have a unique URL, served over a secure socket (SSL) connection and accessible from a web browser. You can embed your application within other pages by using an `iframe`.
+
+```
+<iframe id="example1" src="https://<accountname>.shinyapps.io/<applicationame>"
+style="border: non; width: 100%; height: 500px"
+frameborder="0">
+</iframe>
+```
+
+### Get Started: shinyapps.io
+
+- [Visit the Shiny Gallery](http://shiny.rstudio.com/gallery/)
+- [Read the docs](https://docs.rstudio.com/shinyapps.io/index.html)
+
+### Get Started: R Markdown Websites
+
+- [Learn About  R Markdown Sites](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
+- [Excellent tutorial by Emily Zabor](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
+- [Publishining to GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+
