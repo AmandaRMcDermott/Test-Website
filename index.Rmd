@@ -1,5 +1,5 @@
 ---
-title: "Basic R Markdown Website"
+title: "Amanda's Website"
 output: 
     html_document:
         toc: TRUE
@@ -7,8 +7,6 @@ output:
 ---
 
 ## Welcome!
-
-Hi I'm Kelly from RStudio - This is an example portfolio website I created to inspire more people to build data products and share them on the internet.
 
 - I created this website using R Markdown hosted on my GitHub account.
 - The `Shiny Showcase` section displays embedded shiny applications hosted on [shinyapps.io](http://www.shinyapps.io/)
